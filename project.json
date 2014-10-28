@@ -1,0 +1,37 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/LoadScene.js",
+        "src/scene/StartScene.js",
+        "src/scene/GameScene.js",
+        "src/layer/GameBgLayer.js",
+        "src/layer/GamePlayLayer.js",
+        "src/layer/ZhangaiLayer.js",
+        "src/layer/GameOverLayer.js",
+        "src/layer/ShowSkillLayer.js",
+        "src/layer/HelpLayer.js",
+        "src/layer/ShopLayer.js",
+        "src/layer/DownloadLayer.js",
+        "src/sprite/PhyLiliSprite.js",
+        "src/sprite/BoomSprite.js",
+        "src/sprite/SkillSprite.js",
+        "src/sprite/EnemySprite.js",
+        "src/sprite/BulletSprite.js",
+        "src/sprite/GunSprite.js",
+        "src/sprite/CoinSprite.js",
+        "src/sprite/ElecBarSprite.js",
+        "src/util/MySpriteFrameCache.js",
+        "src/util/globals.js"
+    ]
+}
